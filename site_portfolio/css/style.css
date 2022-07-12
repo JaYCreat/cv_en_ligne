@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body
+{
+
+} */
+/* Haut de page */
+
+
+.nav-bar
+{
+    content: "";
+    border: 2px solid black;
+    background: black;
+    width: 360px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-bar .toggle
+{
+    border: 2px solid rgb(143, 143, 143);
+    width: 43px;
+    height: 29px;
+    border-radius: 10px;
+    background: rgba(253, 253, 253, 0.342);
+    position: absolute;
+    z-index: 100;
+    right: 10px; 
+}
+
+
+hr:nth-child(1)
+{
+  width: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+hr:nth-child(2)
+{
+  width: 15px;
+  position: relative;
+  top: 15px;
+  left: 7px;
+}
+
+
+hr:nth-child(3)
+{
+  width: 10px;
+  position: relative;
+  top: 7px;
+  left: 20px;
+}
+
+/*  mon plan principale */
+
+.presentation
+{
+    border: 2px solid green;
+    height: 750px;
+    margin-top: 0px;
+    background: #506857;
+    color: white;
+}
+.presentation .block-text h1
+{
+    font-family: 'Bodoni Moda';
+}
