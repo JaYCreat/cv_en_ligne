@@ -4,22 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* body
-{
 
-} */
 /* Haut de page */
-
-
-.nav-bar
-{
+.nav-bar{
   position: fixed;
   z-index: 10000;
     content: "";
@@ -31,8 +24,7 @@
     justify-content: flex-end;
     align-items: center;
 }
-#toggle
-{
+#toggle{
     position: fixed;
     top: 6px;
     right: 10px;
@@ -45,8 +37,7 @@
     align-items: center;
     border-radius: 10px;
 }
-#toggle::before
-{
+#toggle::before{
     content: '';
     position: absolute;
     width: 28px;
@@ -55,8 +46,7 @@
     transform: translateY(-5px);
     transition: 0.2s;
 }
-#toggle::after
-{
+#toggle::after{
     content: '';
     position: absolute;
     width: 28px;
@@ -65,17 +55,14 @@
     transform: translateY(5px);
     transition: 0.2s;
 }
-#toggle.active::before
-{
+#toggle.active::before{
 transform: translateY(0px) rotate(45deg);
 }
-#toggle.active::after
-{
+#toggle.active::after{
    transform: translateY(0px) rotate(-45deg); 
 }
 
-#sidebar
-{
+#sidebar{
     position: fixed;
     top: 50px;
     left: -360px;
@@ -85,32 +72,27 @@ transform: translateY(0px) rotate(45deg);
     backdrop-filter: blur(10px);
     transition: 0.5s;
 }
-#sidebar.active
-{
+#sidebar.active{
     left: 0px;
 }
 
 
 
-#sidebar ul
-{
+#sidebar ul{
    position: relative;
    margin-top: 50px;
 
 }
-#sidebar ul li
-{
+#sidebar ul li{
     list-style: none;
     display: inline-block;
     width: 100%;
     padding: 10px 40px;
 }
-#sidebar ul li:hover
-{
+#sidebar ul li:hover{
     background: #03a9f4;
 }
-#sidebar ul li a
-{
+#sidebar ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 1.5em;
@@ -120,8 +102,7 @@ transform: translateY(0px) rotate(45deg);
 
 /*  mon thème de présentation*/
 
-.presentation
-{
+.presentation{
   
     height: 800px;
     margin-top: 0px;
@@ -133,16 +114,14 @@ transform: translateY(0px) rotate(45deg);
     flex-direction: column;
 } 
 
-.presentation .block-text .h1
-{
+.presentation .block-text .h1{
     font-family: 'Bodoni Moda';
     font-size: 2.6em;
     letter-spacing: 1px;
 } 
 
 
-.block-text
-{
+.block-text{
   margin-top: 40px;
   margin-bottom: 55px;
   
@@ -153,8 +132,7 @@ transform: translateY(0px) rotate(45deg);
   filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(100deg) brightness(10019%) contrast(11009%);
   margin-right: 5px;
 }
-.sous-titre
-{
+.sous-titre{
   font-family: 'Gafata', sans-serif;
   font-size: 1.5em;
   display: flex;
@@ -162,13 +140,11 @@ transform: translateY(0px) rotate(45deg);
   justify-content: center;
 }
 
-.inf
-{
+.inf{
   display: none;
 }
 
-.img_profil img
-{
+.img_profil img{
   width: 230px; 
   border-radius: 10px;
   position: relative;
@@ -176,8 +152,7 @@ transform: translateY(0px) rotate(45deg);
   box-shadow: 0px 0px 20px rgba(24, 22, 22, 0.479);
 }
 
-.img_profil .bloc
-{
+.img_profil .bloc{
   /* border: 10px solid white; */
   content: "";
   border-radius: 10px;
@@ -191,8 +166,7 @@ transform: translateY(0px) rotate(45deg);
   backdrop-filter: blur(10px);
 }
 
-.img_profil .bloc2
-{
+.img_profil .bloc2{
   /* border: 10px solid white; */
   content: "";
   border-radius: 10px;
@@ -221,14 +195,12 @@ transform: translateY(0px) rotate(45deg);
   backdrop-filter: blur(10px);
 }
 
-.information
-{
+.information{
   font-family: 'Bodoni Moda';
   font-size: 1.6em;
 }
 
-.age, .email, .tel, .ville
-{
+.age, .email, .tel, .ville{
    color: white;
    text-decoration: none;
    font-size: 1.05em;
@@ -238,8 +210,7 @@ transform: translateY(0px) rotate(45deg);
 
 /* 2ème  thème */
 
-.prqdev
-{
+.prqdev{
   background: rgb(137, 137, 243);
   color: white;
   height: 770px;
@@ -247,8 +218,7 @@ transform: translateY(0px) rotate(45deg);
   z-index: 1000;
 }
 
-.montagne img
-{
+.montagne img{
   width: 100%;
   height: 230px;
   position: relative;
@@ -256,8 +226,7 @@ transform: translateY(0px) rotate(45deg);
   top: 530px;
 }
 
-.bloc_prq
-{
+.bloc_prq{
   border: 1px groove rgba(255, 255, 255, 0.493);
   border-radius: 10px;
   background: #868686a1;
@@ -275,14 +244,12 @@ transform: translateY(0px) rotate(45deg);
   font-family: 'Blinker', sans-serif;
 }
 
-.texte_prq
-{
+.texte_prq{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.texte_prq h1
-{
+.texte_prq h1{
   position: absolute;
   font-family: 'Bodoni Moda';
   font-size: 2.3em;
@@ -291,8 +258,7 @@ transform: translateY(0px) rotate(45deg);
 
 /*  Troisième thèmes */
 
-.expnum
-{
+.expnum{
   background: #281139;
 
   color: white;
