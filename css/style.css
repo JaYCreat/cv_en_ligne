@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 *{
     margin: 0;
@@ -115,7 +111,7 @@ transform: translateY(0px) rotate(45deg);
 } 
 
 .presentation .block-text .h1{
-    font-family: 'Bodoni Moda';
+    font-family: "Bodoni-Moda";
     font-size: 2.6em;
     letter-spacing: 1px;
 } 
@@ -133,7 +129,7 @@ transform: translateY(0px) rotate(45deg);
   margin-right: 5px;
 }
 .sous-titre{
-  font-family: 'Gafata', sans-serif;
+  font-family: "Gafata", sans-serif;
   font-size: 1.5em;
   display: flex;
   align-items: center;
@@ -182,7 +178,7 @@ transform: translateY(0px) rotate(45deg);
 }
 
 .info{
-  font-family: 'Glory', sans-serif;
+  font-family: "Glory", sans-serif;
   border: 3px solid rgba(255, 255, 255, 0.295);
   border-radius: 10px;
   position: relative;
@@ -196,7 +192,7 @@ transform: translateY(0px) rotate(45deg);
 }
 
 .information{
-  font-family: 'Bodoni Moda';
+  font-family: "Bodoni-Moda";
   font-size: 1.6em;
 }
 
@@ -241,7 +237,7 @@ transform: translateY(0px) rotate(45deg);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Blinker', sans-serif;
+  font-family: "Blinker", sans-serif;
 }
 
 .texte_prq{
@@ -251,7 +247,7 @@ transform: translateY(0px) rotate(45deg);
 }
 .texte_prq h1{
   position: absolute;
-  font-family: 'Bodoni Moda';
+  font-family: "Bodoni-Moda";
   font-size: 2.3em;
   top: 15%;
 }
@@ -267,5 +263,35 @@ transform: translateY(0px) rotate(45deg);
   position: absolute;
   top: 1570px;
   z-index: 1000;
+}
+
+
+
+
+
+
+@font-face {
+  font-family:"Blinker";
+  src: url(font/Blinker/Blinker-Regular.ttf) ;
+}
+
+@font-face {
+  font-family:"Bodoni-Moda";
+  src: url(font/Bodoni_Moda/static/BodoniModa_9pt/BodoniModa_9pt-Regular.ttf) format(ttf);
+}
+
+@font-face {
+  font-family:"Gatafa" ;
+  src: url(font/Gafata/Gafata-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Glory" ;
+  src: url(font/Glory/static/Glory-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Poppins";
+  src: url(font/Poppins/Poppins-Regular.ttf);
 }
 
